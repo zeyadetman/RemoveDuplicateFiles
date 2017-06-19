@@ -10,9 +10,11 @@ def hashing(Filepath):
 
 PFfiles = {}
 
+print("Enter The full file path")
 filePath = input()
 PFofFile = hashing(filePath)
 
+print("Enter The full folder path")
 default_path = input()
 
 for item in os.listdir(default_path):
