@@ -30,8 +30,8 @@ for path,PF in PFfiles.items():
         print ("\nWanna Remove ? [Y|n]")
         choice = input()
         print (choice)
-        if choice[0] is 'y' or 'Y':
+        if choice[0] == 'y' or choice[0] == 'Y':
             os.remove(path)
             print ("Removed!")
-        elif choice[0] is 'n' or 'N':
+        elif choice[0] == 'n' or choice[0] == 'N':
             print ("OK, it's your hard capacity!")
