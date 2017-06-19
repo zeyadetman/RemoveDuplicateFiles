@@ -10,10 +10,10 @@ def hashing(Filepath):
 
 PFfiles = {}
 
-filePath = raw_input()
+filePath = input()
 PFofFile = hashing(filePath)
 
-default_path = raw_input()
+default_path = input()
 
 for item in os.listdir(default_path):
     Npath = default_path+'/'+item
