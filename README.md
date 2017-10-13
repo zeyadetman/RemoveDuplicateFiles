@@ -9,6 +9,6 @@
 1. create a new .py file and copy the source code into it.
 1. run script.
 
-*NOTE: 'the folder path not included sub-folders'.
-
-if you want to contribute, fork it.
+## To contribute:
+1. [ ] the folder path include sub-folders.
+1. [ ] add more features. 
